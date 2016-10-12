@@ -1,4 +1,4 @@
-# IMDBot
+# ![alt text](https://github.com/PhilWicke/IMDBot/blob/master/BotLogo02.jpg "Plot Bot Logo")
 This repository contains the files for the IMDB Plotbot [@imdplotbot](https://twitter.com/imdplotbot). This twitter bot will take the top 250 titles of [IMDb](www.imdb.com) in order to create new plots out of the given archives by combining them. The creative approach is a mere random one. Applying the [cut-up technique](https://en.wikipedia.org/wiki/Cut-up_technique) popularized by   William S. Burroughs plot segments will be cut up in beginnings and ends, to be reunited under the restriction of 140 characters.
 
 ## Files

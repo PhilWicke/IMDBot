@@ -6,6 +6,13 @@ Most of the methods used by the bot are stored in _imdpy_. This library features
 
 Importantly, there are two versions that allow to run the plot bot. One that is the enitre process in _imdbot.py_. This one will run and start tweeting plots according to the internal timer. The other method is the _imdbot2txt.py_ which will make use of all the remaining files. The difference here is, that this is outsourcing the computational part and will create a text file holding the created plots. The text file can then be uploaded on a webserver/webservice and a helper scipt _plotbot.py_ will tweet the list. This approach also sends emails if the list of plots shortens or runs out.
 
+## Modules
+Python version 2.7 (should be compatible with 3.5)
+Modules available for 2.7:
+[Tweepy](https://pypi.python.org/pypi/tweepy/2.0) (also available for 3+)
+[gzip File Support](https://docs.python.org/2/library/gzip.html) (also available for 3+)
+[FTP Protocol Client](https://docs.python.org/2/library/ftplib.html) (also available for 3+)
+
 ## Necessary segments
 The twitter handle requires a consumer access and keys. This can be found at _apps.twitter.com -> my applications -> Keys and Access Tokens_. Naturally, the email sender and recipient for the status alert has to be adapted.
 

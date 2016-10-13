@@ -9,8 +9,11 @@ Importantly, there are two versions that allow to run the plot bot. One that is 
 ## Modules
 Python version 2.7 (should be compatible with 3.5)
 Modules available for 2.7:
+
 [Tweepy](https://pypi.python.org/pypi/tweepy/2.0) (also available for 3+)
+
 [gzip File Support](https://docs.python.org/2/library/gzip.html) (also available for 3+)
+
 [FTP Protocol Client](https://docs.python.org/2/library/ftplib.html) (also available for 3+)
 
 ## Necessary segments
